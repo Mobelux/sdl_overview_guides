@@ -28,6 +28,28 @@ import Swift
 print("Hello, World!")
 ```
 
+```java
+AppServiceManifest manifest = new AppServiceManifest(AppServiceType.MEDIA.toString());
+...
+manifest.setHandledRpcs(Collections.singletonList(FunctionID.BUTTON_PRESS.getId()));
+```
+&nbsp;
+```java
+sdlManager.addOnRPCRequestListener(FunctionID.BUTTON_PRESS, new OnRPCRequestListener() {
+    @Override
+    public void onRequest(RPCRequest request) {
+        ButtonPress buttonPress = (ButtonPress) request;
+
+        ButtonPressResponse response = new ButtonPressResponse();
+        response.setSuccess(true);
+        response.setResultCode(Result.SUCCESS);
+        response.setCorrelationID(buttonPress.getCorrelationID());
+        response.setInfo("<#Use to provide more information about an error#>");
+        sdlManager.sendRPC(response);
+    }
+});
+```
+
 
 ## Sections
 
