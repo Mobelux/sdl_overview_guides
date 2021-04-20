@@ -9,7 +9,7 @@ There are different components to SDL that make everything work. The following d
 <br><br>
 ![High Level Diagram](assets/HighLevelDiagram.png) 
 
-
+|~
 ```objc
 #import <Foundation/Foundation.h>
 
@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
 import Swift
 print("Hello, World!")
 ```
-
+~|
 
 ## Sections
 
