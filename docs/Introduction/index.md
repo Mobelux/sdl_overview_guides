@@ -28,6 +28,22 @@ import Swift
 print("Hello, World!")
 ```
 ~|
+```swift
+// Hello, World! Program
+import Swift
+print("Hello, World!")
+```
+```objc
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@"Hello, World!");
+    }
+    return 0;
+}
+```
 
 ## Sections
 
