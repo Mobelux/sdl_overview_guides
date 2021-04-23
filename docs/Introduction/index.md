@@ -48,6 +48,47 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
+This is some text.
+
+|~
+```objc
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@"Hello, World!");
+    }
+    return 0;
+}
+```
+
+```swift
+// Hello, World! Program
+import Swift
+print("Hello, World!")
+```
+~|
+
+This is some text.
+
+```swift
+// Hello, World! Program
+import Swift
+print("Hello, World!")
+```
+```objc
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@"Hello, World!");
+    }
+    return 0;
+}
+```
+
 ## Sections
 
 ### Supported Platforms
