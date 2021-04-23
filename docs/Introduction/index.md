@@ -29,6 +29,8 @@ print("Hello, World!")
 ```
 ~|
 
+This is some text.
+
 ```swift
 // Hello, World! Program
 import Swift
